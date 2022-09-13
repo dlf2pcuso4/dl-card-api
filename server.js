@@ -1,4 +1,4 @@
-const jsonServer = requrie("json-server");
+const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("carddb.json");
 const middlewares = jsonServer.defaults();
